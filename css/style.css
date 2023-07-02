@@ -173,13 +173,12 @@ img{
     margin: 50px auto;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-
 }
 
 .circle img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
+    width: 98%;
+    height: 98%;
+    border-radius: 65%;
 }
 
 .hero-devices {
@@ -580,9 +579,9 @@ img{
     }
 
     .circle {
-        background-color: #ddd2ec;
-        width: 125px;
-        height: 125px;
+        background-color: #7510F7;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
         display: flex;
         justify-content: center;
@@ -593,10 +592,12 @@ img{
 
     }
 
+
+
     .circle img {
-        width: 100%;
-        height: auto;
-        border-radius: 50%;
+        width: 98%;
+        height: 98%;
+        border-radius: 65%;
     }
 
     h1 {
