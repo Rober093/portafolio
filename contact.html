@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web-design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+
+<div class="header">
+    <div class="language-buttons section buttons-section">
+        <button class="translate" id="es">Español</button>
+        <button class="translate" id="en">English</button>
+    </div>
+    <div class="section icons-section">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <div class="section menu-section">
+        <nav id="nav" class="main-nav">
+            <div class="nav-links">
+                <button class="lang custom-button" key="home" onclick="location.href='index.html'">Home</button>
+                <button class="lang custom-button" key="About" onclick="location.href='#quienes-somos'">About me</button>
+                <button class="lang custom-button" key="Contact" onclick="location.href='#contactanos'">Contact Us</button>
+            </div>
+        </nav>
+    </div>
+
+</div>
+
+<!-- Contact Section -->
+<div class="contact-container">
+    <div class="contact-form">
+        <h2>CONTACT</h2>
+        <form id="contact-form" method="POST" action="https://formspree.io/f/mdovqdod">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subjet:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-icons">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:rober_cordova93@hotmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+    <p class="footer-text">© Designed by Roberto Córdova</p>
+</footer>
+
+<script src="js/contact.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
