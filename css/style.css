@@ -418,7 +418,7 @@ img{
 }
 
 .contact-form input[type="submit"] {
-    background-color: #FF4486;
+    background-color: #5BE9B9;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -426,7 +426,7 @@ img{
 }
 
 .contact-form input[type="submit"]:hover {
-    background-color: #FF0066;
+    background-color: #3BAF8F;
 }
 
 .success-message {
@@ -567,9 +567,7 @@ img{
         display: flex;
         flex-direction: column;
     }
-    .hide-on-mobile {
-        display: none;
-    }
+
 
     .hero-devices {
         width: 65%;

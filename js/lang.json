@@ -23,7 +23,11 @@
     "events": "este sitio web representa eventos muy buena asi lo diga yo mismo",
     "food": "un web que muestra los alimentos que tu restaurante ofrece",
     "business": "sitio web para cualquier tipo de negocios",
-    "button-contact": "Contactame"
+    "button-contact": "Contactame",
+    "tech":"Soporte Técnico",
+    "support":"También me gusta brindar soporte técnico a diferentes entidades.",
+    "way":"De esta manera te brindo el soporte",
+    "tools-2":"Herramientas"
 
 
   },
@@ -51,6 +55,10 @@
     "events": "this website represents very good events so say it myself",
     "food": "a website that shows the food that your restaurant offers",
     "business": "website for any type of business",
-    "button-contact": "Contact me"
+    "button-contact": "Contact me",
+    "tech":"Technical Support",
+    "support":"I also like to give technical support to different entities.",
+    "way":"in this way I give you the support",
+    "tools-2":"Tools"
   }
 }
