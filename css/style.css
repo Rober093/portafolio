@@ -567,7 +567,9 @@ img{
         display: flex;
         flex-direction: column;
     }
-
+    .hide-on-mobile {
+        display: none;
+    }
 
     .hero-devices {
         width: 65%;
