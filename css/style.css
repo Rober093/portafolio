@@ -378,45 +378,9 @@ img{
 
 
 /*CONTACTO*/
-.contact-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 100px;
-}
 
-.contact-container::before,
-.contact-container::after {
-    content: "";
-    flex: 1;
-}
 
-.contact-form {
-    width: 100%;
-    background-color: #ffffff;
-    padding: 20px;
-}
-
-.contact-form h2 {
-    text-align: center;
-    margin-bottom: 20px;
-
-}
-
-.contact-form form {
-    display: grid;
-    grid-gap: 10px;
-}
-
-.contact-form label {
-    font-weight: bold;
-}
-
-.contact-form textarea {
-    resize: revert;
-    min-height: 120px;
-}
-
+/* mensajes de error o de pass */
 .contact-form input[type="submit"] {
     background-color: #5BE9B9;
     color: white;
@@ -443,6 +407,7 @@ img{
     padding: 10px;
 }
 
+/**iconos de las tarjetas */
 .icons-cards {
     display: flex;
     justify-content: center;
@@ -488,33 +453,6 @@ img{
         grid-column-gap: 20px;
         grid-row-gap: 20px;
     }
-
-    .contact-form {
-        width: 100%;
-        background-color: #ffffff;
-        padding: 20px;
-    }
-
-    .contact-form h2 {
-        text-align: center;
-        margin-bottom: 180px;
-    }
-
-    .contact-form form {
-        display: grid;
-        grid-gap: 10px;
-    }
-
-    .contact-form label {
-        font-weight: bold;
-    }
-
-    .contact-form textarea {
-        resize: revert;
-        min-height: 120px;
-    }
-
-
 }
 
 @media screen and (min-width: 1024px){
@@ -531,34 +469,6 @@ img{
         grid-column-gap: 20px;
         grid-row-gap: 20px;
     }
-
-    .contact-form {
-        width: 50%;
-        background-color: #ffffff;
-        padding: 20px;
-    }
-
-    .contact-form h2 {
-        text-align: center;
-        margin-bottom: 71px;
-    }
-
-    .contact-form form {
-        display: grid;
-        grid-gap: 10px;
-    }
-
-    .contact-form label {
-        font-weight: bold;
-        min-height: 12px;
-    }
-
-    .contact-form textarea {
-        resize: revert;
-        min-height: 160px;
-    }
-
-
 }
 
 @media screen and (max-width: 767px) {
@@ -591,7 +501,6 @@ img{
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
     }
-
 
 
     .circle img {
@@ -639,15 +548,7 @@ img{
         margin: 15px;
     }
 
-    .contact-container {
-        display: block;
-        text-align: center;
-        padding: 0 20px;
-    }
-
-    .contact-form {
-        width: 100%;
-    }
+}
 
     .lang.email-button {
         background-color: #6E07F3;
